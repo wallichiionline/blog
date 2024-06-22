@@ -1,9 +1,9 @@
 
 document.addEventListener("DOMContentLoaded", function(event) {
     // Function to toggle between light and dark mode
-    // document.getElementById('toggleTheme').addEventListener('change', function() {
-    //     document.body.classList.toggle('dark-mode');
-    // });
+    document.getElementById('toggleTheme').addEventListener('change', function() {
+         document.body.classList.toggle('dark-mode');
+     });
     
     // Function to fetch and display blog posts from localStorage
     function displayBlogPosts() {
